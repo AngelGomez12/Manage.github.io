@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+:root {
+    --color-primario: #F3603B;
+    --color-texto: #242E52;
+}
+
+
+/* Barra de navegacion */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px 20px 0px;
+    height: 100px;
+}
+
+.container-items {
+    display: flex;
+    margin: 10px;
+}
+
+.container-items li {
+    list-style-type: none;
+}
+
+.items {
+    margin: 20px 10px 0px 10px;
+    color: var(--color-texto);
+    text-decoration: none;
+}
+
+.started {
+    background-color: var(--color-primario);
+    padding: 12px 30px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.icono {
+    margin: 20px;
+}
+
+/* main */ 
+
+
+.container-parrafo {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--color-texto);
+    font-size: 58px;
+    margin-bottom: 28px;
+}
+
+.container-started {
+    margin-top: 28px;
+}
+
+.parrafo {
+    margin-right: 50px;
+}
+
+.container-section {
+    display: flex;
+    justify-content: center;
+}
+
+.dirrefent {
+    color: var(--color-texto);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.titulo2 {
+    margin-right: 150px;
+}
+
+.container-parrafo2 {
+    margin-left: 150px;
+}
+
+.number {
+    background-color: var(--color-primario);
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    right: 60px;
+}
+
+.parrafos>p {
+    color: #B3B2B7;
+    margin-top: 18px;
+    padding: 10px;
+}
+
+/* Perfiles  */
+
+
+.perfiles {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+.container-perfiles {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.presentation {
+    text-align: center;
+    color: var(--color-texto);
+    margin-bottom: 74px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.tarjetas>p {
+    color: rgb(179, 178, 183);
+    margin: 20px;
+}
+
+.avatar {
+    position: relative;
+    bottom: 40px;
+    width: 70px;
+    height: 70px;
+}
+
+.container-started2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.started2 {
+    background-color: var(--color-primario);
+    padding: 12px 30px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+/* Footer */ 
+
+.banner {
+    background-color: var(--color-primario);
+    color: #FFFFFF;
+    height: 224px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simplify {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.buttn {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: var(--color-primario);
+    border: none;
+    padding: 12px 30px;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E26;
+    height: 247px;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 70%;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.lista li {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.items2 {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    justify-content: space-between;
+}
+
+#inbox {
+    border-radius: 50px;
+    height: 44px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#go {
+    background-color: var(--color-primario);
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 11px 22px;
+    border: none;
+}
+
+.copyright {
+    color: #8C8C94;
+    font-size: 12px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 13px;
+}
+
+.container-items li :hover {
+    color: #546fc7;
+}
+
+.container-listas li :hover {
+    color: #546fc7;
+}
