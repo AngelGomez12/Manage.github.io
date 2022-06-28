@@ -312,6 +312,10 @@ h1 {
     .container-lista {
         display: none;
     }
+
+    .container-menu {
+        display: initial;
+    }
     
     .menu {
         display: initial;
@@ -438,6 +442,11 @@ h1 {
     .container-lista {
         display: none;
     }
+    
+    .container-menu {
+        display: initial;
+    }
+    
     
     .menu {
         display: initial;
