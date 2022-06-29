@@ -244,6 +244,7 @@ h1 {
     color: var(--color-primario);
     border: none;
     padding: 12px 30px;
+    transition: all .3s ease;
 }
 
 .container-contact {
@@ -364,6 +365,7 @@ h1 {
     left: calc(100% - 25px);
     opacity: 1;
 }
+
 
 /* Media Queri */
 
